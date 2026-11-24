@@ -54,8 +54,10 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
         setDisplayedRole(currentRole.slice(0, displayedRole.length - 1));
       }, 35);
     } else if (isDeleting && displayedRole.length === 0) {
-      setIsDeleting(false);
-      setCurrentRoleIndex((prev) => (prev + 1) % ROLES.length);
+      timeout = setTimeout(() => {
+        setIsDeleting(false);
+        setCurrentRoleIndex((prev) => (prev + 1) % ROLES.length);
+      }, 500);
     }
 
     return () => clearTimeout(timeout);

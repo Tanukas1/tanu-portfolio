@@ -116,7 +116,18 @@ export default function Footer() {
             <ul className="space-y-2 text-xs sm:text-sm text-slate-400">
               <li>
                 <a
-                  href="https://knk-awadh-admin.vercel.app/"
+                  href="https://www.digitalnawab.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-cyan-400 transition-colors flex items-center justify-between"
+                >
+                  <span>Digital Nawab (Next.js)</span>
+                  <span className="text-[10px] font-mono text-slate-500">Live ↗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.knksalon.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-cyan-400 transition-colors flex items-center justify-between"

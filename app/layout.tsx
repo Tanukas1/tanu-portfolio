@@ -65,7 +65,7 @@ export const metadata: Metadata = {
       "Full-Stack Developer crafting responsive interfaces, dynamic web applications, powerful admin panels, and API-driven digital experiences.",
     images: [
       {
-        url: "/images/projects/knk-awadh.webp",
+        url: "/images/projects/knk-salon.webp",
         width: 1440,
         height: 900,
         alt: "Tanu Kashyap Full-Stack Portfolio Showcase",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "Tanu Kashyap | Full-Stack Developer",
     description:
       "Crafting responsive interfaces, dynamic web apps, and custom Laravel admin panels with Next.js, React, and Laravel.",
-    images: ["/images/projects/knk-awadh.webp"],
+    images: ["/images/projects/knk-salon.webp"],
   },
   icons: {
     icon: "/favicon.ico",
